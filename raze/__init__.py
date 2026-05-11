@@ -35,3 +35,5 @@ app = Client(
     bot_token=BOT_TOKEN,
     plugins={"root": "raze/modules"},
 )
+from dotenv import load_dotenv
+load_dotenv()
